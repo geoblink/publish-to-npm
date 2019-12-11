@@ -1,4 +1,4 @@
-name: Publish to npm
+name: Publish to NPM when missing
 author: geoblink
 description: Automatically publish current version to NPM if not already published
 
