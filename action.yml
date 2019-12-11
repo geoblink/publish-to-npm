@@ -1,0 +1,11 @@
+name: Publish to npm
+author: geoblink
+description: Automatically publish current version to NPM if not already published
+
+runs:
+  using: docker
+  image: Dockerfile
+
+branding:
+  icon: package
+  color: gray-dark
