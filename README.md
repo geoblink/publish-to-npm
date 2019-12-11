@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/geoblink/publish-to-npm.svg?branch=master)](https://travis-ci.org/geoblink/publish-to-npm)
-[![NPM package version](https://img.shields.io/npm/v/@geoblink/publish-to-npm)](https://www.npmjs.com/package/@geoblink/publish-to-npm)
+[![NPM package version](https://img.shields.io/npm/v/@geoblink/publish-to-npm)](https://www.npmjs.com/package/@geoblink/publish-to-npm) [![Greenkeeper badge](https://badges.greenkeeper.io/geoblink/publish-to-npm.svg)](https://greenkeeper.io/)
 
 # @geoblink/publish-to-npm
 
