@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/geoblink/publish-to-npm.svg?branch=master)](https://travis-ci.org/geoblink/publish-to-npm)
+[![NPM package version](https://img.shields.io/npm/v/@geoblink/publish-to-npm)](https://www.npmjs.com/package/@geoblink/publish-to-npm)
+
 # @geoblink/publish-to-npm
 
 GitHub action to automatically publish package to NPM if they are not already published.
