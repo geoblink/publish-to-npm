@@ -1,6 +1,6 @@
 {
   "name": "@geoblink/publish-to-npm",
-  "version": "1.0.0",
+  "version": "1.0.2-beta.0",
   "description": "CLI tool to publish a package to NPM",
   "bin": {
     "publish-to-npm": "dist/index.js"
