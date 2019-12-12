@@ -35,7 +35,7 @@ async function getPackagePublishedInfo (cwd: string): Promise<string> {
   const pathToPackageJson = await module.exports.findPackageJsonFile(cwd)
   const packageName = await module.exports.getPackageName(cwd)
 
-  return module.exports.runShellScript(`yarn info '${packageName}' --json`, pathToPackageJson)
+  return module.exports.runShellScript(`yarn info '${packageName}' --json`, path.dirname(pathToPackageJson))
 }
 
 async function findPackageJsonFile (cwd: string): Promise<string> {

@@ -62,13 +62,13 @@ describe('Utils', function () {
 
   describe('#getPackagePublishedInfo', function () {
     it('Should return run yarn info with proper package name', async function () {
-      sandbox.stub(utils, 'findPackageJsonFile').resolves('my path')
+      sandbox.stub(utils, 'findPackageJsonFile').resolves('my-path/package.json')
       sandbox.stub(utils, 'getPackageName').resolves('my name')
       sandbox.stub(utils, 'runShellScript').resolves('my response')
 
       await expect(utils.getPackagePublishedInfo('')).to.eventually.equal('my response')
 
-      expect(utils.runShellScript).to.have.been.calledOnceWithExactly('yarn info \'my name\' --json', 'my path')
+      expect(utils.runShellScript).to.have.been.calledOnceWithExactly('yarn info \'my name\' --json', 'my-path')
     })
   })
 
