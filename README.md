@@ -28,7 +28,7 @@ jobs:
       with:
         node-version: 12.0.0
     - name: Publish version
-      uses: geoblink/publish-to-npm@1.0.0
+      uses: geoblink/publish-to-npm@v1.0.2
       env:
         NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }} # You must set this in your repo settings
 ```
