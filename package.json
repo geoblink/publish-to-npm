@@ -36,7 +36,7 @@
   "devDependencies": {
     "@types/chai": "^4.1.7",
     "@types/chai-as-promised": "^7.1.2",
-    "@types/mocha": "^5.2.5",
+    "@types/mocha": "^7.0.1",
     "@types/mock-fs": "^4.10.0",
     "@types/node": "^12.12.17",
     "@types/sinon": "^7.0.5",
